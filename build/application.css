@@ -1,0 +1,48 @@
+body {
+  font-family: 'Cutive Mono', monospace;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.rotatelogo {
+  -webkit-animation: rotation 10s infinite linear;
+          animation: rotation 10s infinite linear;
+}
+
+a {
+  text-decoration: none;
+  color: #101010;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.list .questions {
+  font-weight: bold;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+@keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+/*# sourceMappingURL=application.css.map */
