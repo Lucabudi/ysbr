@@ -1,6 +1,51 @@
 body {
   font-family: 'Cutive Mono', monospace;
   font-family: 'Oxygen', sans-serif;
+  font-family: 'Source Code Pro', monospace;
+}
+
+body h1 {
+  font-family: 'Bangers', curive;
+  font-size: 52px;
+}
+
+body p {
+  font-family: 'Source Code Pro', monospace;
+}
+
+body a {
+  text-decoration: none;
+  color: #101010;
+}
+
+body a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/*** BOTTONI ***/
+.botton-primary {
+  font-family: 'Bangers', curive;
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-color: #000;
+  border-width: 2px;
+}
+
+.botton-primary:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/*** BOX ***/
+.box-eventi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .rotatelogo {
@@ -8,20 +53,10 @@ body {
           animation: rotation 10s infinite linear;
 }
 
-a {
-  text-decoration: none;
-  color: #101010;
-}
-
-a:hover {
-  color: black;
-  text-decoration: underline;
-}
-
 .list .questions {
   font-weight: bold;
   font-size: 36px;
-  text-transform: uppercase;
+  font-family: 'Bangers', curive;
 }
 
 @-webkit-keyframes rotation {
