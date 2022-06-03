@@ -26,6 +26,16 @@ body{
   
 }
 
+/*** UTILS ***/
+
+.text-details p {
+  paddind-left: 20px!important;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+}
 /*** BOTTONI ***/
 
 .botton-primary {
@@ -47,10 +57,6 @@ body{
 
 /*** BOX ***/
 
-.box-eventi {
-  display: flex;
-}
-
 .rotatelogo{
     animation: rotation 10s infinite linear;
 }
@@ -60,6 +66,11 @@ body{
   font-weight: bold;
   font-size: 36px;
   font-family: 'Bangers', curive;
+}
+
+.event-details {
+  display: flex;
+  justify-content: center;
 }
 
 @keyframes rotation {

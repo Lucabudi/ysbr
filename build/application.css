@@ -23,6 +23,16 @@ body a:hover {
   text-decoration: underline;
 }
 
+/*** UTILS ***/
+.text-details p {
+  paddind-left: 20px !important;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+}
+
 /*** BOTTONI ***/
 .botton-primary {
   font-family: 'Bangers', curive;
@@ -42,12 +52,6 @@ body a:hover {
 }
 
 /*** BOX ***/
-.box-eventi {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .rotatelogo {
   -webkit-animation: rotation 10s infinite linear;
           animation: rotation 10s infinite linear;
@@ -57,6 +61,15 @@ body a:hover {
   font-weight: bold;
   font-size: 36px;
   font-family: 'Bangers', curive;
+}
+
+.event-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @-webkit-keyframes rotation {
