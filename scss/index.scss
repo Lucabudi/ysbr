@@ -13,6 +13,8 @@ body{
     font-family: 'Source Code Pro', monospace;
   }
 
+  
+
   a{
     text-decoration: none;
     color: rgb(16, 16, 16);
@@ -28,10 +30,14 @@ body{
   
 }
 
+.banner{
+  background-color: red;
+}
+
 /*** UTILS ***/
 
 .text-details p {
-  paddind-left: 20px!important;
+  padding-left: 20px !important;
 }
 
 .title {
@@ -87,4 +93,7 @@ ul {
       transform: rotate(359deg);
     }
   }
+
+
+@import './Commons/commons.scss';
 
