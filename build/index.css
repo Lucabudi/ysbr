@@ -1,0 +1,148 @@
+@charset "UTF-8";
+body {
+  font-family: 'Cutive Mono', monospace;
+  font-family: 'Oxygen', sans-serif;
+  font-family: 'Source Code Pro', monospace;
+}
+
+body h1 {
+  font-family: 'Bangers', curive;
+  font-size: 52px;
+}
+
+body p {
+  font-family: 'Source Code Pro', monospace;
+}
+
+body a {
+  text-decoration: none;
+  color: #101010;
+}
+
+body a:hover {
+  color: black;
+  text-decoration: underline;
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🌊</text></svg>") 16 0, auto;
+}
+
+.banner {
+  background-color: red;
+}
+
+/*** UTILS ***/
+.text-details p {
+  padding-left: 20px !important;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+/*** BOTTONI ***/
+.botton-primary {
+  font-family: 'Bangers', curive;
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-color: #000;
+  border-width: 2px;
+}
+
+.botton-primary:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/*** BOX ***/
+.rotatelogo {
+  -webkit-animation: rotation 10s infinite linear;
+          animation: rotation 10s infinite linear;
+}
+
+.list .questions {
+  font-weight: bold;
+  font-size: 36px;
+  font-family: 'Bangers', curive;
+}
+
+.event-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+@keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+.banner {
+  margin-top: 50px;
+  position: relative;
+  width: 100%;
+  background-color: #fcc203;
+  overflow: hidden;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.banner p {
+  -webkit-animation: loop 20s linear infinite;
+          animation: loop 20s linear infinite;
+  display: inline-block;
+  white-space: nowrap;
+  margin: 0;
+  padding-left: 100%;
+}
+
+@-webkit-keyframes loop {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  100% {
+    -webkit-transform: translate(-100%, 0);
+            transform: translate(-100%, 0);
+  }
+}
+
+@keyframes loop {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  100% {
+    -webkit-transform: translate(-100%, 0);
+            transform: translate(-100%, 0);
+  }
+}
+/*# sourceMappingURL=index.css.map */

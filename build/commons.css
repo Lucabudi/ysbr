@@ -1,0 +1,42 @@
+.banner {
+  margin-top: 50px;
+  position: relative;
+  width: 100%;
+  background-color: #fcc203;
+  overflow: hidden;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.banner p {
+  -webkit-animation: loop 20s linear infinite;
+          animation: loop 20s linear infinite;
+  display: inline-block;
+  white-space: nowrap;
+  margin: 0;
+  padding-left: 100%;
+}
+
+@-webkit-keyframes loop {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  100% {
+    -webkit-transform: translate(-100%, 0);
+            transform: translate(-100%, 0);
+  }
+}
+
+@keyframes loop {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  100% {
+    -webkit-transform: translate(-100%, 0);
+            transform: translate(-100%, 0);
+  }
+}
+/*# sourceMappingURL=commons.css.map */
